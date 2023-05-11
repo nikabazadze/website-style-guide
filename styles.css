@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrcVIT9d0c8.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/merriweather/v22/u-440qyriQwlOrhSvowK_l5-fCZMdeX3rg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 20px;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+header {
+    padding: 30px 0px;
+}
+
+section {
+    border: 2px solid grey;
+    margin-bottom: 20px;
+}
+
+/* Colors section */
+.box {
+    line-height: 2;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin: 0 0 20px 20px;
+    padding: 20px 0px;
+}
+
+.deeppink {
+    background-color: deeppink;
+}
+
+.greenyellow {
+    background-color: greenyellow;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.moccasin {
+    background-color: moccasin;
+}
+
+.turquoise {
+    background-color: turquoise;
+}
+
+/* Fonts section */
+.font-sample {
+    line-height: 2;
+    display: inline-block;
+    width: 40%;
+    margin: 0 20px 20px 20px;
+}
+
+.lato {
+    font-family: 'Lato';
+}
+
+.raleway {
+    font-family: 'Raleway';
+}
+
+.merriweather {
+    font-family: 'Merriweather';
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Text Styles section */
+.text-styles h1{
+    font-size: 26px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.text-styles h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.text-styles p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+ul {
+    margin-left: 50px;
+    margin-bottom: 20px; 
+}
